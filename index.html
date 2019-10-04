@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>repl.it</title>
+	<link href="cascade.css" rel="stylesheet" type="text/css" />
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<h1>Let's Explore HTML & CSS!</h1>
+
+	<section id="about">
+		<h2>Who am I?</h2>
+		<p class="my-name">Kelly Hopson</p>
+	</section>
+
+	<section id="history">
+		<h2>Where did this all start?</h2>
+		<p>
+			In March of 1989 <b>Sir Tim Berners-Lee</b> invented the World-Wide Web
+        to help distribute research. He wrote the first web server,
+        browser(client), and distributed the idea in 1990.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">
+        Tim Berners-Lee
+      </a>
+      <h2>How does it work?</h2>
+      <h3>Common Terms</h3>
+      <ul>
+        <li>HTTP: HyperText Transfer Protocol</li>
+        <li>HTML: HyperText Markup Language</li>
+        <li>TCP: Transmission Control Protocol</li>
+        <li>URL: Uniform Resource Locator</li>
+      </ul>
+      <p>
+        The hypertext transfer protocol allows information to be transferred
+        over a network. When a transfer takes place, there is a serer and a
+        client involved. The client, usually through a browser, sends a request
+        for information. The server then responds or serves the requesed
+        information if the request was valid. If your request was not valid you
+        may get something like this:
+        <a href="https://www.lego.com/en-us/404" target="_blank">404</a>
+        The transaction usually takes place over a TCP connection.
+      </p>
+    </section>
+    <section id="html-foundation">
+      <h2>HTML Structure</h2>
+      <ol>
+        <li><b>Document Type</b></li>
+        <li><b>Header</b></li>
+        <li><b>Title</b></li>
+        <li><b>Body</b></li>
+        <li><b>Script</b></li>
+      </ol>
+      <h2>HTML Parts and Pieces</h2>
+      <h3>Elements, Tags, and Attributes... OH MY!</h3>
+      <p>
+        HTML elements are used to give the page content structure. HTML tags are
+        used to distinguish between the markup and the content. Tags start and
+        end with brackets and <b>most</b> have both an opening and closeing tag.
+        The closing tag uses a '/' before the element name. HTML
+      </p>
+      <div class"flex-example">
+        <figure>
+          <img src="https://mdn.mozillademos.org/files/9347/grumpy-cat-small.png"
+          alt="HTML Element Example"
+          style="width:100%"
+          />
+          <figcaption>HTML Element Image</figcaption>
+        </figure>
+      </div>
+      <p>
+        Some tags are self-closing. Like the image tag and the DOCTYPE.<br />
+        Here is a list of the HTML tags availible.
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+          target="_blank"
+        >Tag List</a>
+      </p>
+      <h3>Example of link attributes: &</h3>
+      <ul>
+        <li><a href="https://example.com">Website</a></li>
+        <li><a href="mailto:m.bluth@example.com">Email</a></li>
+        <li><a href="tel:+123456789">Phone</a></li>
+      </ul>
+      <h3>Block Level vs In-Line</h3>
+      <p>
+        Block elements start on a new line and may contain in-line elements
+        nested within them. In-line elements do not start on a new line by
+        default, they stay in the flow of the text.
+      </p>
+      <h2>Semantic HTML & Accessibility</h2>
+      <p>
+        Semantic HTML is the use of HTML markup to reinforce the semantics, or
+        meaning, of the information in webpages and web applications rather than
+        merely to define its presentation or look. Semantic HTML is processed by
+        traditional web browsers as well as by many other user agents. CSS is
+        used to suggest its presentation to human users.
+      </p>
+      <div>
+      <!-- This should be a form -->
+        <label for="name">Fill in your name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+    </section>
+  </body>
+</html>
